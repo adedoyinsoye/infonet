@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>INFONET</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="">Home</a>
+        <a href="#about">About Us</a>
+        <a href="./form.html" class="right">Login</a>
+      </div>
+    <div class="header">
+        <h1>INFONET</h1>
+        <p>...learn to be anything in the world</p>
+        <a href="#register"><button type="submit"> LEARN A SKILL</button></a>
+      </div>
+     
+       <!-- ABOUT US-->
+<section><a name="about"></a>
+  <div class="container text-center"><b><h2>ABOUT US</b></h2>
+    <div class="row text-center">
+      <div class="col-md-4">
+        <img src="./img/who.png" height="145">
+        <h4>WHO ARE WE?</h4>
+        <p>InfoNet is a service where telecom users can subscribe  to get content periodically from the web tailored for their specific learning needs. </p>
+      </div>
+    <div class="col-md-4">
+       <img src="./img/soluu.png" height="145">
+       <h4>VISION</h4>
+       <p>To create a brand that will make significant impact in Nigeria as regards educating people to hone their skills in order to increase employability rates among youths.</p>
+     </div>
+   <div class="col-md-4">
+       <img src="./img/missionn.png" height="145">
+       <h4>LEARNING FIELDS</h4>
+       <li>Product Branding</li>
+       <li>Content Writing</li>
+       <li>Translation</li>
+       <li>Social Media Marketing</li>
+       <li>Digital Marketing</li>
+     </div>
+   </div>
+  </div>
+ </section>
+ <form class="register"><a name="register"></a>
+    <div class="form-row">
+      <div class="form-group col-md-3">
+        <label for="inputPhone">Phone Number</label>
+        <input type="number" class="form-control" id="inputPhone" placeholder="Phone Number">
+      </div>
+      <div class="form-group col-md-3">
+        <label for="inputPassword4">Password</label>
+        <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+      </div>
+    </div>
+    <div class="form-row">
+    <div class="form-group col-md-2">
+        <label for="inputZip">Username</label>
+        <input type="text" class="form-control" id="inputZip">
+      </div>
+      <div class="form-group col-md-3">
+        <label for="inputState">What do you want to learn?</label>
+        <select id="inputState" class="form-control">
+          <option selected>Choose...</option>
+          <option>Product Branding</option>
+           <option> Content Writing</option>
+           <option>Translation</option>
+           <option>Social Media Marketing</option>
+           <option>Digital Marketing</option>
+        </select>
+      </div>
+      <div class="form-group col-md-3">
+          <label for="inputState">Subcription Plan</label>
+          <select id="inputState" class="form-control">
+            <option selected>Choose...</option>
+            <option>Basic</option>
+             <option>Premium</option>
+          </select>
+        </div>
+    </div>
+    <div class="form-group col-md-3">
+        <label for="inputState">Pay Now</label>
+        <select id="inputState" class="form-control">
+          <option selected>Choose...</option>
+          <option>Paypal</option>
+           <option>Interswitch</option>
+        </select>
+      </div>
+    <div class="form-group">
+        <div class="form-check">
+          <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" required>
+          <label class="form-check-label" for="invalidCheck3">
+            Agree to terms and conditions
+          </label>
+          <div class="invalid-feedback">
+            You must agree before submitting.
+          </div>
+        </div>
+      </div>
+      <button class="btn btn-primary" type="submit">Register</button>
+</form>
+<footer class="footer">
+    <p style="color: black">
+        © Adedoyin, 2019.
+    </p>
+</footer>
+ <script src="./js/jquery.min.js"></script>
+ <script src="./js/bootstrap.js"></script>
+</body>
+</html>
